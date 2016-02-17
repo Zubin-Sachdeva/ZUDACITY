@@ -103,3 +103,17 @@ body {
   color: black;
   font-size: 18px;
 }
+
+.col-md-9 ul {
+  margin-top: 50px;
+}
+
+.col-md-9 ul li {
+  display: inline;
+  padding: 5px;
+}
+
+#courses {
+  margin-top: 75px;
+  margin-left: 160px;
+}
