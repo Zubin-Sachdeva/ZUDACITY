@@ -117,3 +117,46 @@ body {
   margin-top: 75px;
   margin-left: 160px;
 }
+
+#footer_logo {
+  margin-top: 70px;
+  margin-left: 145px;
+  height: 70px;
+  width: 70px;
+}
+
+.foot {
+  font-size: 14px;
+}
+
+#list_of_courses {
+  list-style-type: none;
+}
+
+.col-md-3 p {
+  margin-top: 40px;
+}
+ .p {
+   color: #557188;
+ }
+
+.q {
+  color: #2e3d49;
+}
+.t {
+  padding-left: 40px;
+  line-height: 10%;
+}
+
+.contact {
+  width: 30px;
+}
+
+.icons img{
+  margin-top: 13px;
+  padding-left: 125px;
+}
+a {
+  text-decoration: none;
+  color: #2e3d49;
+}
