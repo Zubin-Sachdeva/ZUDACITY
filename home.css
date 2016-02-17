@@ -18,7 +18,7 @@ body {
 .top p a {
     color: white;
     text-decoration: none;
-    border-bottom: 1px solid #91daee;
+    border-bottom: 1px solid white;
 }
 
 .top p a:hover {
@@ -28,5 +28,78 @@ body {
 
 .top p a:visited {
     text-decoration: underline;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #91daee;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+.col-md-11 {
+  width: 91.66666667%;
+}
+.col-md-10 {
+  width: 83.33333333%;
+}
+.col-md-9 {
+  width: 75%;
+}
+.col-md-8 {
+  width: 66.66666667%;
+}
+.col-md-7 {
+  width: 58.33333333%;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-5 {
+  width: 41.66666667%;
+}
+.col-md-4 {
+  width: 33.33333333%;
+}
+.col-md-3 {
+  width: 25%;
+}
+.col-md-2 {
+  width: 16.66666667%;
+}
+.col-md-1 {
+  width: 8.33333333%;
+}
+
+.col-md-6 img {
+  margin-left: 125px;
+  height: 130px;
+  width: 168px;
+}
+
+.col-md-6 ul {
+  margin-left: 165px;
+  margin-top: 55px;
+  list-style-type: none;
+}
+.col-md-6 ul li {
+  color: #808080;
+  display: inline;
+  padding: 20px;
+}
+
+.col-md-6 ul li a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.col-md-6 ul li a:hover {
+  color: black;
+  font-size: 18px;
 }
