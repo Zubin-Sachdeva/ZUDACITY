@@ -1,0 +1,32 @@
+body {
+    font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.top {
+    margin: -14px -10px 0px -10px;
+    background-color: #7d97ad;
+    height: 38px;
+}
+
+.top p {
+    font-size: .875em;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.top p a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid #91daee;
+}
+
+.top p a:hover {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top p a:visited {
+    text-decoration: underline;
+    border-bottom: 1px solid white;
+}
