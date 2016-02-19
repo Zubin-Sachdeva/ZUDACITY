@@ -1,0 +1,265 @@
+body {
+    font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left;
+}
+
+.col-md-12 {
+  width: 100%;
+}
+.col-md-11 {
+  width: 91.66666667%;
+}
+.col-md-10 {
+  width: 83.33333333%;
+}
+.col-md-9 {
+  width: 75%;
+}
+.col-md-8 {
+  width: 66.66666667%;
+}
+.col-md-7 {
+  width: 58.33333333%;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-5 {
+  width: 41.66666667%;
+}
+.col-md-4 {
+  width: 33.33333333%;
+}
+.col-md-3 {
+  width: 25%;
+}
+.col-md-2 {
+  width: 16.66666667%;
+}
+.col-md-1 {
+  width: 8.33333333%;
+}
+
+.col-md-6 img {
+  margin-left: 125px;
+  height: 130px;
+  width: 168px;
+}
+
+.col-md-6 ul {
+  margin-left: 165px;
+  margin-top: 55px;
+  list-style-type: none;
+}
+.col-md-6 ul li {
+  color: #808080;
+  display: inline;
+  padding: 20px;
+}
+
+.col-md-6 ul li a {
+  color: #808080;
+  text-decoration: none;
+}
+
+.col-md-6 ul li a:hover {
+  color: black;
+  font-size: 18px;
+}
+
+.pic {
+  margin-left: 10px;
+  background-image: url('img/tab.jpg');
+  background-repeat: no-repeat;
+  height: 770px;
+
+}
+
+button {
+  background-color: #8c8c8c;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+.video1 {
+  margin-left: 145px;
+}
+.col-md-12 h1 {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+}
+
+pre {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+.new_list {
+  margin-top: 50px;
+  margin-left: 460px;
+  list-style-image: url('https://lh3.googleusercontent.com/BqU1OhLMsLcGiW0lsqazJ6n8Hcyh96WbjT2Yh7AIOcuBm1JWGwvMtoTVcqILuDWtLc10x1BxVkbpbfLYHw=s18#w=36&h=26');
+
+}
+
+center {
+  margin-top: 120px;
+}
+
+#Intro {
+  margin-top: 25px;
+  text-align: center;
+  color: #307699;
+  font-size: 22px;
+}
+
+.col-md-3 p {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+span {
+  font-size: 30px;
+  color: #307699;
+}
+
+.col-md-3 ul li{
+  color: #545454  ;
+}
+hr {
+  width: 90%;
+  color: #d3d3d3;
+  margin-top: 43px;
+  margin-bottom: 23px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+  margin-left: 100px;
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 250px;
+	height: 200px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 1s;
+	transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.back {
+  background-color: #444C5C;
+  color: white;
+  backface-visibility: hidden;
+  padding: 20px;
+  position: absolute;
+}
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+.edit {
+  padding-left: 20px;
+  font-weight: bold;
+  color: white;
+
+}
+
+input[type="button"] {
+  border-radius: 5px;
+  background-color: #bdbdbd;
+  color: black;
+  padding: 8px;
+  margin-left: 80px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+h2 {
+  padding-top: 40px;
+  color: #307699;
+  text-align: center;
+}
+
+.foot {
+  font-size: 14px;
+}
+
+#list_of_courses {
+  list-style-type: none;
+}
+
+.col-md-3 p {
+  margin-top: 40px;
+}
+ .p {
+   color: #557188;
+ }
+
+.q {
+  color: #2e3d49;
+}
+.t {
+  padding-left: 40px;
+  line-height: 10%;
+
+}
+
+.contact {
+  width: 30px;
+}
+
+.icons img{
+  margin-top: 13px;
+  padding-left: 125px;
+}
+a {
+  text-decoration: none;
+  color: #2e3d49;
+}
+
+.r {
+  padding-bottom: 20px;
+}
+#footer_logo {
+  margin-top: 70px;
+  margin-left: 145px;
+  height: 70px;
+  width: 70px;
+}
