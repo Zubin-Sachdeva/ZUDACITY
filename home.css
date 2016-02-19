@@ -146,6 +146,7 @@ body {
 .t {
   padding-left: 40px;
   line-height: 10%;
+
 }
 
 .contact {
@@ -159,4 +160,8 @@ body {
 a {
   text-decoration: none;
   color: #2e3d49;
+}
+
+.r {
+  padding-bottom: 20px;
 }
