@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Udacity | Blog</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="blog.css" />
+        <script type="text/javascript" src="bootstrap/js/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="blog.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row header">
+                <div class="col-md-6">
+                    <a href="home.html"><h1>UDACITY</h1></a>
+                </div>
+                <div class="col-md-6">
+                    <ul class="top_list">
+                        <li>
+                            <a href="about.html" target="_blank">About</a>
+                        </li>
+                        <li>
+                            <a href="nanodegree.html"
+                            target="_blank" style="color: #02b3e4">Nanodegree</a>
+                        </li>
+                        <li>
+                            <a href="home.html"
+                            target="_blank">udacity.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row a" style="background-color: #e9e3ac;">
+                <div class="col-md-7 customer">
+
+                    <h2 style="padding-top: 5px;">Have anything to say to us?</h2>
+                    <p style="padding-bottom: 8px;">
+                        We would love to hear from you!
+                    </p>
+                    <br />
+                    <img src='img/fb1.jpg' alt="feedback"/>
+                </div>
+                <div class="col-md-5 feedback">
+                    <br /><br />
+                    <form name="feed" action="feedback.html" target="_blank" onsubmit="return validate_form()" method="post">
+                        <fieldset style="border: 1px solid black;">
+                            <legend>
+                                <h3>Feedback</h3>
+                            </legend>
+                            <br />
+                            <input class="big_gap" type="text" name="name" placeholder="  Name" size="30px"/><br />
+                            <br /><input name="email" class="big_gap" type="text" size="30px" placeholder="  Email"/><br />
+                            <br /><input name="code" class="big_gap" type="text" size="5" placeholder=" +91"  required/>&nbsp;<input name="number" class="big_gap" type="text" placeholder="  Mobile No."size="16px"/><br />
+                            <br /><textarea class="big_gap" style="width: 280px; height: 70px;" placeholder="  Feedback" required></textarea>
+                            <br /><br />
+                            <input class="but" type="submit" name="submit" value="Submit" size="100px"/>
+                            <!-- <input class="but" type="reset" name="reset" value="Reset" /> -->
+                            <br /><br />
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

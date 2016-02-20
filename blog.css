@@ -1,0 +1,126 @@
+body {
+    font-size: 16px;
+    font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h1 {
+  color: white;
+  margin-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.header a, .header a:hover {
+  text-decoration: none;
+}
+.header {
+  margin-left: -108px;
+  margin-right: -108px;
+  background-color: #083d4c;
+}
+
+.a {
+  margin-top: 50px;
+  margin-left: -108px;
+  margin-right: -108px;
+}
+/*.logo {
+    height: 130px;
+    width: 168px;
+}*/
+
+.top_list {
+    list-style-type: none;
+    margin-left: 145px;
+    margin-top: 40px;
+}
+
+.top_list li {
+
+  font-size: 18px;
+  color: white;
+  display: inline;
+  padding: 20px;
+}
+
+.top_list li a {
+  color: white;
+  text-decoration: none;
+}
+
+.top_list li a:hover {
+  font-size: 20px;
+}
+.big_gap {
+  /*background-color: lightgray;*/
+  margin-left: 60px;
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 2px;
+}
+
+.customer {
+  background-image: url('img/os.jpg');
+  background-size: 100% 600px;
+  margin-top: 80px;
+  text-align: center;
+  right: 0px;
+  left: 50px;
+  height: 210px;
+}
+.customer p {
+  font-size: 20px;
+}
+
+.customer img {
+  height: 180px;
+  width: 300px;
+}
+.feedback {
+  /*background-color: lightgray;*/
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /*background-image: url('img/fb12.jpg');*/
+  /*opacity: 0.85;*/
+  background-size: 100% 400px;
+  height: 380px;
+}
+.but {
+  cursor: pointer;
+  margin-left: 60px;
+  /*background-color: lightgray;*/
+  color: black;
+  width: 72%;
+  border: 1px solid #006B54;
+  background-color: #006B54;
+  color: white;
+  padding: 5px 20px;  /*border: 1px solid black;*/
+  border-radius: 4px;
+  /*padding: 5px 10px 5px;*/
+}
+*::-webkit-input-placeholder {
+    color: black;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: black;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
+form {
+  margin-left: 80px;
+  margin-top: -50px;
+  margin-right: 40px;
+}
+.pic {
+  margin-left: -100px;
+  margin-right: -100
+  height: 400px;
+  background-image: url('img/spare.jpg');
+  background-size: 100% 40
+}
