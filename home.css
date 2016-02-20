@@ -3,7 +3,7 @@ body {
 }
 
 .top {
-    margin: -14px -10px 0px -10px;
+    margin: -14px -8px 0px -8px;
     background-color: #7d97ad;
     height: 38px;
 }
@@ -32,8 +32,8 @@ body {
 }
 
 .row {
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
