@@ -30,7 +30,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
+            <div class="row a" style="background-color: #e9e3ac;">
                 <div class="col-md-7 customer">
 
                     <h2 style="padding-top: 5px;">Have anything to say to us?</h2>
@@ -43,14 +43,20 @@
                 <div class="col-md-5 feedback">
                     <br /><br />
                     <form name="feed" action="feedback.html" target="_blank" onsubmit="return validate_form()" method="post">
-                        <input class="big_gap" type="text" name="name" placeholder="  Name" size="35px"/><br />
-                        <br /><input name="email" class="big_gap" type="text" size="35px" placeholder="  Email"/><br />
-                        <br /><input name="code" class="big_gap" type="text" size="5" placeholder=" +91"  required/>&nbsp;&nbsp;&nbsp;<input name="number" class="big_gap" type="text" placeholder="  Mobile No."size="15px"/><br />
-                        <br /><textarea class="big_gap" style="width: 330px; height: 70px;" placeholder="  Feedback" required></textarea>
-                        <br /><br />
-                        <input class="but" type="submit" name="submit" value="Submit" />
-                        <input class="but" type="reset" name="reset" value="Reset" />
-                        <br />
+                        <fieldset style="border: 1px solid black;">
+                            <legend>
+                                <h3>Feedback</h3>
+                            </legend>
+                            <br />
+                            <input class="big_gap" type="text" name="name" placeholder="  Name" size="30px"/><br />
+                            <br /><input name="email" class="big_gap" type="text" size="30px" placeholder="  Email"/><br />
+                            <br /><input name="code" class="big_gap" type="text" size="5" placeholder=" +91"  required/>&nbsp;<input name="number" class="big_gap" type="text" placeholder="  Mobile No."size="16px"/><br />
+                            <br /><textarea class="big_gap" style="width: 280px; height: 70px;" placeholder="  Feedback" required></textarea>
+                            <br /><br />
+                            <input class="but" type="submit" name="submit" value="Submit" size="100px"/>
+                            <!-- <input class="but" type="reset" name="reset" value="Reset" /> -->
+                            <br /><br />
+                        </fieldset>
                     </form>
                 </div>
             </div>
